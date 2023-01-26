@@ -868,6 +868,7 @@ button {
             display: flex;
             transform: translate(0);
             transition: transform 0.25s;
+            flex-direction: row-reverse;
     
         }
     
