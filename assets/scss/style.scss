@@ -299,11 +299,13 @@ main {
         color: $text-dark-bg;
     }
 
-    &galerie {
+    .galerie {
+        margin-left: 60px;
         display: flex;
         transform: translate(0);
         transition: transform 0.25s;
-
+        flex-direction: row-reverse;
+    
     }
 
     img {
@@ -764,7 +766,6 @@ button {
 
 
     }
-
     .leistungen-im-uberblick {
 
         .container {
@@ -789,9 +790,6 @@ button {
             }
         }
     }
-
-
-
     .kontaktieren-sie-uns {
         background-color: $section-bg;
         background-color: $section-bg;
@@ -876,8 +874,7 @@ button {
             width: 200px;
             border-radius: 5px;
         }   
-    }
-    
+    }  
     .links {
         background-image: url(../images/background.jpeg);
         background-attachment: scroll;

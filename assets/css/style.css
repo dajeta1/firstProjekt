@@ -385,10 +385,12 @@ main .intro .title p {
   background-image: linear-gradient(180deg, #000000 17%, #ffffff 100%);
   color: #ffffff;
 }
-.carousel-galeriegalerie {
+.carousel-galerie .galerie {
+  margin-left: 60px;
   display: flex;
   transform: translate(0);
   transition: transform 0.25s;
+  flex-direction: row-reverse;
 }
 .carousel-galerie img {
   width: 170px;
@@ -805,6 +807,7 @@ button {
     display: flex;
     transform: translate(0);
     transition: transform 0.25s;
+    flex-direction: row-reverse;
   }
   .carousel-galerie img {
     width: 200px;
